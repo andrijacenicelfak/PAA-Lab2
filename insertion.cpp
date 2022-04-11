@@ -55,7 +55,6 @@ int main(int argc, char* argv[]) {
            << "vreme : " << end - begSort << "ms\n"
            << "---------------------------------\n";
     output.close();
-    printArray(nums, N);
     delete[] nums;
     return 0;
 }

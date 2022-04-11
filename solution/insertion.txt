@@ -1,0 +1,18 @@
+Insert sort : 100 elemenata
+vreme : 0ms
+---------------------------------
+Insert sort : 1000 elemenata
+vreme : 1ms
+---------------------------------
+Insert sort : 10000 elemenata
+vreme : 86ms
+---------------------------------
+Insert sort : 100000 elemenata
+vreme : 10509ms
+---------------------------------
+Insert sort : 1000000 elemenata
+vreme : 1286751ms
+---------------------------------
+
+Za 10 M elemenata necu ni da pokusam jer prema ovim rezultatima ce mi biti potrebno previse vremena (3.62 godina)
+f(x) = (x * x / 875) ms odprilike
