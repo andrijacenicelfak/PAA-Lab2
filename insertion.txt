@@ -1,0 +1,6 @@
+Insert sort : 100 elemenata
+vreme : 0ms
+---------------------------------
+Insert sort : 1000 elemenata
+vreme : 0ms
+---------------------------------
