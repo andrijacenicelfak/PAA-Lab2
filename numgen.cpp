@@ -13,7 +13,7 @@ using std::chrono::milliseconds;
 using std::chrono::system_clock;
 
 int main(int argc, char* argv[]) {
-    fstream f(argv[2]);
+    ofstream file(argv[2]);
     int amount = 0;
 
     string am(argv[1]);
@@ -21,12 +21,13 @@ int main(int argc, char* argv[]) {
 
     srand(time(NULL));
     auto millsStart = duration_cast<milliseconds>(system_clock::now().time_since_epoch()).count();
-
+    int broj;
     for (int i = 0; i < amount; i++) {
-        f << rand() << " ";
+        broj = rand();
+        file << broj << " ";
     }
 
     auto mills = duration_cast<milliseconds>(system_clock::now().time_since_epoch()).count() - millsStart;
-    f.close();
+    file.close();
     cout << "Generated in " << mills << "ms\n";
 }
