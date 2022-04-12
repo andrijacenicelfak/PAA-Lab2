@@ -1,0 +1,18 @@
+Radix sort : 100 elemenata
+vreme : 0ms
+---------------------------------
+Radix sort : 1000 elemenata
+vreme : 0ms
+---------------------------------
+Radix sort : 10000 elemenata
+vreme : 3ms
+---------------------------------
+Radix sort : 100000 elemenata
+vreme : 24ms
+---------------------------------
+Radix sort : 1000000 elemenata
+vreme : 271ms
+---------------------------------
+Radix sort : 10000000 elemenata
+vreme : 3035ms
+---------------------------------
