@@ -1,0 +1,18 @@
+Heap sort : 100 elemenata
+vreme : 0ms
+---------------------------------
+Heap sort : 1000 elemenata
+vreme : 1ms
+---------------------------------
+Heap sort : 10000 elemenata
+vreme : 2ms
+---------------------------------
+Heap sort : 100000 elemenata
+vreme : 30ms
+---------------------------------
+Heap sort : 1000000 elemenata
+vreme : 345ms
+---------------------------------
+Heap sort : 10000000 elemenata
+vreme : 5631ms
+---------------------------------
